@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png">
+    
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5.<p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Ando Triste Compa - Jovenes Viejos.mp3" type="audio/mp3">
+        <source src="audio/audio.ogg" type="audio/ogg">
+        <source src="audio/audio.wav" type="audio/wav">
+     
+        <p>Seu navegador não suporta o audio</p>
+</body>
+</html>
